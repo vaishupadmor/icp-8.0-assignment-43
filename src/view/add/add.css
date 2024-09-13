@@ -1,0 +1,46 @@
+.user-input{
+    width: 400px;
+    background-color: aliceblue;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    
+}
+
+.user-input-select{
+    width: 450px;
+}
+
+.emoji-picker{
+    position: fixed !important;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    
+}
+.user-input-emoji{
+    text-align: center;
+}
+.add-note-btn{
+    display: block;
+    margin: 30px auto;
+}
+
+@media screen and (max-width:500px) {
+    .user-input{
+        width: 220px;
+        font-size: 20px;
+    }
+
+    .user-input-select{
+        width: 260px;
+    }
+    .emoji-picker{
+        width: 290px !important;
+    }
+}
