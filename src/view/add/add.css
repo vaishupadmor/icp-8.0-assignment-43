@@ -1,46 +1,116 @@
-.user-input{
-    width: 400px;
-    background-color: aliceblue;
-    border: 1px solid grey;
-    border-radius: 20px;
-    padding: 10px 20px;
-    font-size: 20px;
-    display: block;
-    margin: 20px auto;
-    cursor: pointer;
-    
-}
+/* add.css */
 
-.user-input-select{
-    width: 450px;
-}
-
-.emoji-picker{
-    position: fixed !important;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1000;
-    
-}
-.user-input-emoji{
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    font-size: 2rem;
+  }
+  
+  .text-center {
     text-align: center;
-}
-.add-note-btn{
+
+  }
+  
+  .text-primary {
+    color: #10375C;
+  }
+  
+  .user-input {
     display: block;
-    margin: 30px auto;
-}
+    width: 90%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .user-input-select {
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .user-input-emoji {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 12px;
+    margin: 10px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-input-emoji:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .btn {
+    display: block;
+    width: 90%;
+    max-width: 120px;
+    margin: 5px auto;
+    padding: 12px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #10375C;
+    height: 45px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-primary {
+    background-color: #10375C;
+    text-decoration: none;
+  }
+  .btn-secondary {
+    background-color: #10375C;
+    text-decoration: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #03162a;
+  }
 
-@media screen and (max-width:500px) {
-    .user-input{
-        width: 220px;
-        font-size: 20px;
-    }
-
-    .user-input-select{
-        width: 260px;
-    }
-    .emoji-picker{
-        width: 290px !important;
-    }
-}
+  .btn-secondary:hover {
+    background-color: #03162a;
+  }
+  
+  .emoji-picker {
+    margin: 10px auto;
+    max-width: 400px;
+  }
+  
+  .add-note-btn {
+    background-color: #10375C;
+  }
+  
+  .add-note-btn:hover {
+    background-color: #03162a;
+  }
+  
+  .add-note-btn:active {
+    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
+  }
+  
+ 
+ 

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from "./view/home/home";
-import Add from "./view/Add/add";
+import Add from "./view/add/add";
 import Show from "./view/show/show";
 import { Toaster } from 'react-hot-toast';
 

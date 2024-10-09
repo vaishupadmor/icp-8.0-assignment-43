@@ -3,32 +3,32 @@ import Imgsecure from "./cyber-security.png"
 import Imgbrain from "./brain.png"
 import Imgeasy from "./easy.png"
 import Imglove from "./love.png"
-import FeatureCard from './../../component/Featurecard/featurecard'
+import FeatureCard from './../../component/featurecard/featurecard'
 import "./home.css"
 import { Link } from 'react-router-dom'
 
 const FEATURES = [
 {
 featureImg:Imgsecure,
-featureText:"Notes will be saved securly in your browser's local storage"
+featureText:"Notes will be saved securly in your browser's local storage",
 },
 {
 featureImg:Imgbrain,
-featureText:"Use your brain for Thinking.Not for remembering things."
+featureText:"Use your brain for Thinking.Not for remembering things.",
 },
 {
 featureImg:Imglove,
-featureText:"Use your heart for trust"
+featureText:"Use your heart for trust",
 },
 {
 featureImg:Imgeasy,
-featureText:"easy to use ade understand."
+featureText:"easy to use ade understand.",
 }]
 
 
 
 
-function home() {
+function Home() {
   return (
     <div>
         <h1 className='text-center text-primary  app-title'> 📓{" "} Quick Note </h1>
@@ -72,4 +72,4 @@ function home() {
   )
 }
 
-export default home
+export default Home

@@ -14,7 +14,7 @@ function Show() {
   
   return (
     <div>
-      <h1 style={{textAlign:"center"}}> 📝 Show Notes </h1>
+      <h1 style={{textAlign:"center" , color:"#10375C"}}> 📝 Show Notes </h1>
       <div className='notes-container'>
       {
         notes.map((note,index)=>{

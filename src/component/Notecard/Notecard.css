@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     background-color: white;
+    color: #10375C;
     margin: 10px 30px;
     border-radius: 10px;
     padding: 10px;
@@ -14,9 +15,12 @@
 }
 .note-card-title{
     margin: 0px;
+    color: #10375C;
 }
 .note-card-description{
     margin: 0px;
+    color:#10375C;
+
 }
 .note-card-category{
     position:absolute ;
@@ -54,11 +58,11 @@
     background-color: snow;
 }
 .bg-personal{
-background-color: aliceblue;
+background-color: yellow;
 
 }
 .bg-learning{
-    background-color: antiquewhite;
+    background-color: yellow;
 }
 
 .bg-health{
@@ -80,6 +84,7 @@ background-color: aliceblue;
 }
 .note-card-description{
     font-size: 14px;
+    color: #10375C;
 }
 .note-card-category{
     font-size: 8px;

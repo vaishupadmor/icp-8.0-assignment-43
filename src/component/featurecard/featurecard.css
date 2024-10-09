@@ -1,17 +1,18 @@
 .buttons-container{
     display: flex;
     justify-content: center;
+
 }
 
 .feature-cardd{
-    background-color: white;
+    background-color: #EB8317;
     width: 300px;
     height: 200px;
     padding: 15px 20px ;
     border-radius: 10px;
-    box-shadow: 0 0 10px  whitesmoke ;
+    box-shadow: 0 0 30px  whitesmoke ;
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid #FAF7F0;
    
     
 }

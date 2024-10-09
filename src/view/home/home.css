@@ -1,14 +1,28 @@
+
+
+
 .buttons-container{
     display: flex;
     justify-content: center;
+    
+   
 }
 
 .feature-container{
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 20px;
     margin-bottom: 50px;
+}
+
+.buttons-container a{
+    text-decoration: none;
+}
+
+.buttons-container .btn{
+    text-decoration: none;
 }
 
 @media  screen and (max-width:500px) {

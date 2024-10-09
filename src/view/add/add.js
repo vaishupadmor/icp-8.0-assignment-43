@@ -2,7 +2,6 @@ import React,{ useState} from 'react';
 import './add.css'
 import Homebutton from '../../component/homebutton/homebutton'
 import EmojiPicker from 'emoji-picker-react';
-import { JSON } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import toast from 'react-hot-toast';
 
